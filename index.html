@@ -2,6 +2,7 @@
 	<head>
 		<link rel="shortcut icon" href="pics/favicon.ico">
 		<title>Fernando's Portfolio</title>
+		<meta name="referrer" content="origin">
 		<link rel="stylesheet" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -117,12 +118,12 @@
 			<div class="col-xs-12" id="contact-text">
 				<p>If you wish to contact me for any reason, just fill in the formular below. Please do not forget to introduce your e-mail address!</p>
 			</div>
-			<form name="contactform" method="post" class="form-horizontal" action="http://formspree.io/fernandodelaconcha@gmail.com">
+			<form name="contactform" method="POST" class="form-horizontal" action="http://formspree.io/fernandodelaconcha@gmail.com">
 				<div class="form-group">
 					<input type="text" class="form-control" name="name" maxlength="50" size="30" placeholder="Name">
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" name="_replyto" maxlength="80" size="30" placeholder="Email">
+					<input type="email" class="form-control" name="_replyto" maxlength="80" size="30" placeholder="Email">
 				</div>
 				<div class="form-group">
 					<textarea name="comments" class="form-control" maxlength="1000" cols="25" rows="6" placeholder="Content"></textarea>
